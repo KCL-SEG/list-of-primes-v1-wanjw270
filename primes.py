@@ -12,6 +12,6 @@ def primes(number_of_primes):
                 isPrime = False
         if isPrime:
             list.append(num)
-        num += 1   
-        count += 1 
+        num += 1
+    count += 1    
     return list
